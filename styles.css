@@ -1,0 +1,168 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+#formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#formulario div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#formulario label {
+    width: 30%;
+    font-size: 16px;
+    padding-right: 10px;
+    color: #555;
+}
+
+select {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input {
+    width: 68%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+.cotizacion-card {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px; /* Espacio interno alrededor del icono */
+    border: 1px solid #000; /* Borde de 1px de ancho y color negro */
+}
+
+article {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+article h2{
+    text-align: center;
+}
+
+.cotizaciones-historicas {
+    text-align: center;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.company-icon{    
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px;
+    display: inline;
+}
+  
+.company-icon {
+    margin-right: 5px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #formulario div {
+        flex-direction: column;
+    }
+
+    #formulario label {
+        width: 100%;
+        margin-bottom: 5px;
+        padding-right: 0;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    input {
+        width: 95%;
+    }
+    .cotizacion-card {
+        flex-wrap: wrap;
+    }
+}
+
